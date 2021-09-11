@@ -1,0 +1,22 @@
+.partners-container {
+  display: flex;
+
+  .partners-wrapper {
+    margin: 0 auto;
+    text-align: center;
+
+    h3 {
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 45px;
+    }
+
+    .partners-logos {
+      display: flex;
+      gap: 43px;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+}

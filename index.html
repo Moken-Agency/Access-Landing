@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link
+      rel="preload"
+      href="/fonts/Lufga-ExtraLight.woff2"
+      as="font"
+      type="font/woff2"
+    />
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+    <title>Access The Future</title>
+  </head>
+  <body>
+    <div
+      class="pop-up-container pop-up-container-closed"
+      onclick="closeOpenPopUp()"
+      id="popup"
+    >
+      <div class="pop-up-wrapper" id="wrapper" onclick="closeOpenPopUp()">
+        <img src="assets/logo.svg" alt="" />
+        <h4><span>Can’t</span> wait for launch?</h4>
+        <p>
+          With products & tools launching every month joining the waitlist is
+          your best way to stay up to date & be notified each time a new product
+          drops!
+        </p>
+        <form>
+          <input
+            type="email"
+            id="7"
+            required
+            placeholder="Enter Your Email"
+          /><button class="btn-black" onclick="addContact(event, 7)">
+            Join The Waitlist
+          </button>
+        </form>
+      </div>
+    </div>
+    <nav class="nav-container">
+      <div class="nav-wrapper">
+        <a href="/"><img src="assets/logo.svg" /></a>
+        <ul class="nav-links">
+          <!-- <li class="nav-link"><a href="/">Tools</a></li> -->
+          <!-- TODO advanced hover for products -->
+          <li class="nav-link dropdown">
+            <a href="/">Products</a>
+            <div class="dropdown-container">
+              <div class="dropdown-wrapper">
+                <div class="dropdown-product" id="link-1">
+                  <a href="/network.html"
+                    ><img src="assets/Group 14 1.webp" alt="" />
+                    <p>
+                      Access a global network of founders, partners, investors &
+                      innovators.
+                    </p></a
+                  >
+                </div>
+                <div class="dropdown-product" id="link-2">
+                  <a href="/core.html">
+                    <img src="assets/Group 10 1.webp" alt="" />
+                    <p>
+                      Access the resources you need to grow & scale your
+                      startup.
+                    </p></a
+                  >
+                </div>
+                <div
+                  class="dropdown-product"
+                  onclick="closeOpenPopUp()"
+                  id="link-3"
+                >
+                  <img src="assets/Group 11 4.svg" alt="" />
+                  <p>
+                    Access the talent you need with a smarter & more efficient
+                    job platform.
+                  </p>
+                </div>
+                <div
+                  class="dropdown-product"
+                  onclick="closeOpenPopUp()"
+                  id="link-4"
+                >
+                  <img src="assets/Brand Guide.svg" alt="" />
+                  <p>
+                    Access industry leading startups with full service program
+                    management.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-link"><a href="/">Crowdfund with Us</a></li>
+          <!-- <li class="nav-link"><a href="/">Press</a></li> -->
+          <!-- <li class="nav-link">About</li> -->
+        </ul>
+        <div class="nav-btns">
+          <a
+            href="https://moken.mn.co/sign_up?space_id=2457286&from=https%3A%2F%2Fmoken.mn.co%2Ffeed%3Fautojoin%3D1%26autojoin_space_id%3D2457286%26saved_page%3D0"
+            class="btn-black"
+            target="_blank"
+            >Get Started</a
+          >
+          <a href="https://moken.mn.co/feed" class="btn-white" target="_blank"
+            >Log In</a
+          >
+        </div>
+      </div>
+    </nav>
+    <header class="main-header">
+      <div class="header-left-img">
+        <img src="assets/vector-15.svg" id="img-1" />
+        <img src="assets/vector-14.svg" id="img-2" />
+      </div>
+      <div class="header-text-partners">
+        <h1>
+          The <span>future</span> is now. <br />
+          Access <span>yours.</span>
+        </h1>
+        <p>
+          Everything needed to kickstart, build & manage a startup, from
+          ideation to scale.
+        </p>
+        <a
+          class="btn-black"
+          href=" https://moken.mn.co/sign_up?space_id=2457286&from=https%3A%2F%2Fmoken.mn.co%2Ffeed%3Fautojoin%3D1%26autojoin_space_id%3D2457286%26saved_page%3D0"
+          target="_blank"
+          >Join the Community</a
+        >
+      </div>
+      <div class="header-right-img">
+        <img src="assets/vector-12.svg" id="img-3" />
+        <img src="assets/vector-13.svg" id="img-4" />
+      </div>
+    </header>
+    <section class="partners-container">
+      <div class="partners-wrapper">
+        <h3>
+          More that 100 startups & founders trust Access
+        </h3>
+        <div class="partners-logos">
+          <img src="assets/prommoto-logo-blue-1.svg" />
+          <img src="assets/group-3526.svg" />
+          <img src="assets/knowbieLogo.svg" />
+          <img src="assets/group-1993.svg" />
+          <img src="assets/group-3516.svg" />
+          <img src="assets/group.svg" />
+        </div>
+      </div>
+    </section>
+    <section class="products-container">
+      <div class="products-wrapper">
+        <div class="products-text">
+          <span>Created for Founders, by Founders.</span>
+          <h2>
+            Products designed specifically to kickstart your entrepreneurial
+            success.
+          </h2>
+        </div>
+        <div class="product-cards-container">
+          <div class="product-card">
+            <img src="assets/group 43556.svg" />
+            <a href="/network.html" class="btn-black btn-product">Learn More</a>
+          </div>
+          <div class="product-card">
+            <img src="assets/group 43594.svg" />
+            <a href="/core.html" class="btn-black btn-product">Learn More</a>
+          </div>
+          <div class="product-card">
+            <img src="assets/group-43595.svg" />
+            <a class="btn-black btn-product" onclick="closeOpenPopUp()"
+              >Coming Soon</a
+            >
+          </div>
+          <div class="product-card">
+            <img src="assets/group-43596.svg" />
+            <a class="btn-black btn-product" onclick="closeOpenPopUp()"
+              >Coming Soon</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="crowdfunding-container">
+      <div class="crowdfunding-wrapper">
+        <div class="crowdfunding-image">
+          <img src="assets/Group 43625.webp" />
+          <img src="assets/Group 43628.svg" id="share-cmp-btn" />
+          <img src="assets/Group 43629@3x.png" id="ifw-btn" />
+          <img src="assets/Group 43627.svg" id="fund-it-btn" />
+        </div>
+        <div class="crowdfunding-text">
+          <span>We’re crowdfunding!</span>
+          <h3>
+            It takes a village to raise a child & it takes a community to build
+            a startup.
+          </h3>
+          <p>
+            To continue in the pursuit of creating innovative accessible,
+            inclusive & innovation driven products for startups & founders
+            around the world, we’re crowdfunding to help push us through our
+            development finish line & bring Access to market!
+          </p>
+          <a>Join the Campaign</a>
+        </div>
+      </div>
+    </section>
+    <section class="products-details-container">
+      <div class="product-details-wrapper">
+        <div class="product-details-text">
+          <img src="assets/access-network-logo.svg" />
+          <h3>
+            Access a global network of founders, partners, investors, and
+            innovators.
+          </h3>
+          <p>
+            Surround yourself with the top courses, resources, founders, mentors
+            & supporters in the global ecosystem.
+          </p>
+          <a href="network.html">Learn More</a>
+        </div>
+        <div class="product-details-img">
+          <img src="assets/Rectangle 54.svg" />
+          <img src="assets/Rectangle 425.svg" id="rect425" />
+          <img src="assets/Group 43619.webp" id="grp19" />
+          <img src="assets/Group 43601.svg" id="grp01" />
+          <img src="assets/Group 43620.webp" id="grp20" />
+        </div>
+      </div>
+      <div class="product-details-wrapper-reverse">
+        <div class="product-details-text">
+          <img src="assets/access-core-logo.svg" />
+          <h3>
+            Access the resources you need to grow & scale your startup.
+          </h3>
+          <p>
+            The advisors, deals & resources you need to build, grow & scale your
+            startup successfully.
+          </p>
+          <a href="/core.html" id="a-core">Learn More</a>
+        </div>
+        <div class="product-details-img">
+          <img src="assets/Vector 6.svg" />
+          <img src="assets/Vector 10.svg" id="vec10" />
+          <img src="assets/Investor Tag.svg" id="invtg" />
+          <img src="assets/Startup Tag.svg" id="strptg" />
+          <img src="assets/Group 43519.webp" id="grp519" />
+          <img src="assets/Group 43459.webp" id="grp59" />
+          <img src="assets/Deal Card.webp" id="dlcrd" />
+        </div>
+      </div>
+      <div class="product-details-wrapper">
+        <div class="product-details-text">
+          <img src="assets/access-talent-logo.svg" />
+          <h3>
+            Access the talent you need with a smarter & more efficient job
+            platform.
+          </h3>
+          <p>
+            Manage talent acquisition & onboarding through AI driven features to
+            connect with job seekers globally.
+          </p>
+          <a id="cmgsoon" onclick="closeOpenPopUp()">Coming Soon</a>
+        </div>
+        <div class="product-details-img">
+          <img src="assets/Vector 8.svg" />
+          <img src="assets/Vector 9.svg" id="vec9" />
+          <img src="assets/Job Opportunity Card.webp" id="jobopr" />
+          <img src="assets/Group 43562.webp" id="grp562" />
+          <img src="assets/Group 43559.svg" id="grp559" />
+          <img src="assets/Job Opportunity Card-2.webp" id="jobopr2" />
+          <img src="assets/Ellipse 140.webp" id="elp1" />
+          <img src="assets/Ellipse 139.webp" id="elp2" />
+        </div>
+      </div>
+      <div class="product-details-wrapper-reverse">
+        <div class="product-details-text">
+          <img src="assets/access-accelerate-logo.svg" />
+          <h3>
+            Access industry leading startups with full service program
+            management.
+          </h3>
+          <p>
+            Cohort-based management & full service recruitment platform for
+            startup programs.
+          </p>
+          <a id="a-access" onclick="closeOpenPopUp()">Coming Soon</a>
+        </div>
+        <div class="product-details-img">
+          <img src="assets/Vector 7.svg" />
+          <img src="assets/Vector 11.svg" id="vec11" />
+          <img src="assets/Map Startup Modal.svg" id="map" />
+          <img src="assets/Job Opportunity Card.svg" id="jobcard" />
+          <img src="assets/Group 43565.webp" id="grp565" />
+          <img src="assets/Map Startup Modal.webp" id="map2" />
+        </div>
+      </div>
+    </section>
+    <section class="tools-container">
+      <div class="tools-wrapper">
+        <div class="tools-text-container">
+          <span>Tools to Kickstart your Success</span>
+          <h3>
+            Try our free tools designed to kickstart and accelerate your journey
+            to success.
+          </h3>
+        </div>
+        <div class="tools-cards-container">
+          <div class="tools-card">
+            <img src="assets/smallMap.png" id="smallMap" />
+            <img src="assets/Group 43632.svg" />
+          </div>
+          <div class="tools-card">
+            <img src="assets/Group 43635.svg" id="grp635" />
+            <img src="assets/Group 43631.svg" />
+          </div>
+          <div class="tools-card">
+            <img src="assets/Seed Tag.svg" id="seedTag" />
+            <img src="assets/Pre-Seed Tag.svg" id="preSeedTag" />
+            <img src="assets/Crowdfund Tag.svg" id="crwfTag" />
+            <img src="assets/Series A Tag.svg" id="srsATag" />
+            <img src="assets/Equity Crowdfund Tag.svg" id="eCrwdTag" />
+            <img src="assets/Group 43630.svg" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="platforms-container">
+      <div class="platforms-wrapper">
+        <div class="platforms-text-container">
+          <span>Feature Packed Products</span>
+          <h3>
+            Our platforms are leading the market with revolutionary features.
+          </h3>
+        </div>
+        <div class="platforms-cards-container">
+          <div class="platform-card">
+            <img src="assets/resources 1.webp" />
+            <h4><span>Curated </span>Resources</h4>
+            <p>
+              All the resources you need, specially curated & gathered together
+              in one place.
+            </p>
+          </div>
+          <div class="platform-card">
+            <img src="assets/video-call 1.webp" />
+            <h4><span>Expert </span>Support</h4>
+            <p>
+              The professional & experienced support you need at your
+              fingertips.
+            </p>
+          </div>
+          <div class="platform-card">
+            <img src="assets/network 1.webp" />
+            <h4><span>Connecting</span> the Dots</h4>
+            <p>
+              Our products are designed with collaboration & integration in
+              mind.
+            </p>
+          </div>
+          <div class="platform-card">
+            <img src="assets/speech-bubble 1.webp" />
+            <h4><span>Messaging</span></h4>
+            <p>
+              A built-in chat platform provides users with an easy way to
+              communicate.
+            </p>
+          </div>
+          <div class="platform-card">
+            <img src="assets/workgroup 1.webp" />
+            <h4><span>Add</span> Team Members</h4>
+            <p>
+              Bring your whole team along & work collaboratively across all
+              platforms.
+            </p>
+          </div>
+          <div class="platform-card">
+            <img src="assets/megaphone (1) 1.webp" />
+            <h4><span>Referral</span> System</h4>
+            <p>
+              Refer your friends for special rewards! Think of it as our little
+              welcome gift.
+            </p>
+          </div>
+          <div class="platform-card">
+            <img src="assets/wallet 1.webp" />
+            <h4><span>Credit</span> System</h4>
+            <p>
+              Celebrate your achievements with rewards & badges at set
+              checkpoints
+            </p>
+          </div>
+          <div class="platform-card">
+            <img src="assets/achievement 1.webp" />
+            <h4><span>Badges</span> & Rewards</h4>
+            <p>
+              Celebrate your achievements with rewards & badges at set
+              checkpoints
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="join-community-container">
+      <div class="join-community-wrapper">
+        <h3><span>Join</span> the Community</h3>
+        <form>
+          <input
+            type="email"
+            id="1"
+            required
+            placeholder="Enter email address"
+          />
+          <button class="btn-black" onclick="addContact(event, 1)">
+            Get the News
+          </button>
+        </form>
+      </div>
+    </section>
+    <footer class="footer-container">
+      <div class="footer-wrapper">
+        <div class="footer-social-logo-container">
+          <div class="footer-logo">
+            <a href="/"><img src="assets/Group 15.svg" /></a>
+            <h5><span>Powered</span> by Moken</h5>
+          </div>
+          <div class="footer-social">
+            <div class="footer-social-icons">
+              <a href="https://instagram.com/accessthefuture" target="_blank"
+                ><img src="assets/instagram.webp"
+              /></a>
+              <a
+                href="https://linkedin.com/showcase/accessthefuture.io"
+                target="_blank"
+              >
+                <img src="assets/linkedin.webp"
+              /></a>
+              <a href="https://twitter.com/accessthefuture" target="_blank"
+                ><img src="assets/twitter.webp"
+              /></a>
+            </div>
+            <p>Copyright ©2021 Access The Future Inc.</p>
+          </div>
+        </div>
+        <div class="footer-links">
+          <ul>
+            <li class="footer-links-title">Products</li>
+            <li><a href="/network.html">Network</a></li>
+            <li><a href="/core.html">Core</a></li>
+            <!-- <li><a>Ecosystem</a></li> -->
+            <!-- <li><a>Pricing</a></li> -->
+          </ul>
+          <ul>
+            <li class="footer-links-title">Company</li>
+            <!-- <li><a>About Us</a></li> -->
+            <!-- <li><a>Brand Kit</a></li> -->
+            <!-- <li><a>Press</a></li> -->
+            <!-- <li><a>Investors</a></li> -->
+            <!-- <li><a>Careers</a></li> -->
+            <li>
+              <a href="https://mokenstartups.com/#/" target="_blank">Moken</a>
+            </li>
+          </ul>
+          <ul>
+            <li class="footer-links-title">Support</li>
+            <!-- <li><a>Help Center</a></li> -->
+            <li><a href="/contact-us.html">Contact Us</a></li>
+            <!-- <li><a>Tutorials</a></li> -->
+            <li>
+              <a href="https://twitter.com/accessthefuture" target="_blank"
+                >Tweet @ Us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"
+    ></script>
+    <script type="text/javascript" src="/scripts/main.js"></script>
+  </body>
+</html>

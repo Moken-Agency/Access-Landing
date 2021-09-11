@@ -1,0 +1,83 @@
+.tools-container {
+  width: 100%;
+  margin-top: 200px;
+
+  .tools-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .tools-text-container {
+      max-width: 628px;
+      text-align: center;
+
+      span {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 45px;
+      }
+
+      h3 {
+        margin: 15px 0 0 0;
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 45px;
+      }
+    }
+
+    .tools-cards-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+
+      .tools-card {
+        position: relative;
+
+        #smallMap {
+          position: absolute;
+          top: 106.5px;
+          left: 125px;
+          max-width: 99px;
+        }
+
+        #grp635 {
+          position: absolute;
+          top: 88px;
+          left: 56px;
+        }
+
+        #seedTag {
+          position: absolute;
+          top: 114px;
+          right: 220px;
+        }
+
+        #preSeedTag {
+          position: absolute;
+          top: 65px;
+          right: 140px;
+        }
+
+        #crwfTag {
+          position: absolute;
+          top: 130px;
+          right: 85px;
+        }
+
+        #srsATag {
+          position: absolute;
+          top: 188px;
+          right: 45px;
+        }
+
+        #eCrwdTag {
+          position: absolute;
+          top: 175px;
+          right: 165px;
+        }
+      }
+    }
+  }
+}

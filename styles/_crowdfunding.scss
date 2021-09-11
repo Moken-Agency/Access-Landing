@@ -1,0 +1,113 @@
+.crowdfunding-container {
+  background-color: #131313;
+  width: 100%;
+  padding: 65px 0;
+
+  .crowdfunding-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+
+    .crowdfunding-image {
+      position: relative;
+
+      #share-cmp-btn {
+        position: absolute;
+        top: -25px;
+        left: -145px;
+      }
+
+      #ifw-btn {
+        position: absolute;
+        top: 40px;
+        right: -30px;
+        // height: 83px;
+        width: 150px;
+      }
+
+      #fund-it-btn {
+        position: absolute;
+        top: 183px;
+        right: -225px;
+      }
+    }
+
+    .crowdfunding-text {
+      max-width: 505px;
+      color: #fff;
+
+      span {
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 30px;
+      }
+
+      h3 {
+        max-width: 14px 0 24px 0;
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 45px;
+      }
+
+      p {
+        font-size: 20px;
+        font-weight: normal;
+        line-height: 30px;
+        margin-bottom: 34px;
+      }
+
+      a {
+        color: #131313;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: bold;
+        background-color: #fff;
+        padding: 14px 30px;
+        border-radius: 14px;
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .crowdfunding-container {
+    .crowdfunding-wrapper {
+      justify-content: center;
+
+      .crowdfunding-text {
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .crowdfunding-container {
+    .crowdfunding-wrapper {
+      justify-content: center;
+
+      .crowdfunding-image {
+        position: relative;
+
+        #share-cmp-btn {
+          display: none;
+        }
+
+        #ifw-btn {
+          display: none;
+        }
+
+        #fund-it-btn {
+          display: none;
+        }
+      }
+
+      .crowdfunding-text {
+        text-align: center;
+      }
+    }
+  }
+}

@@ -1,0 +1,120 @@
+.innovation-container {
+  width: 100%;
+  margin-top: 260px;
+
+  .innovation-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    .innovation-img-container {
+      position: relative;
+      img {
+        width: 100%;
+      }
+
+      #vec6 {
+        max-width: 604px;
+      }
+
+      #vec10 {
+        position: absolute;
+        max-width: 590px;
+        top: -30px;
+        left: -20px;
+      }
+
+      #grp634 {
+        position: absolute;
+        max-width: 177px;
+        top: 50px;
+        right: 60px;
+      }
+
+      #shareAchiv {
+        position: absolute;
+        max-width: 404px;
+        bottom: 0px;
+        left: -25px;
+      }
+
+      #grp635 {
+        position: absolute;
+        max-width: 177px;
+        bottom: 100px;
+        right: -40px;
+      }
+    }
+
+    .innovation-text-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      span {
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 30px;
+        color: #1544d6;
+      }
+
+      h2 {
+        max-width: 460px;
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 45px;
+        margin: 22px 0 36px 0;
+      }
+
+      p {
+        max-width: 414px;
+        font-size: 20px;
+        font-weight: normal;
+        line-height: 30px;
+        color: #131313;
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .innovation-container {
+    .innovation-wrapper {
+      justify-content: center;
+
+      .innovation-text-container {
+        display: flex;
+        margin-top: 50px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        span {
+          font-size: 20px;
+          font-weight: bold;
+          line-height: 30px;
+          color: #1544d6;
+        }
+
+        h2 {
+          max-width: 460px;
+          font-size: 35px;
+          font-weight: 600;
+          line-height: 45px;
+          margin: 22px 0 36px 0;
+        }
+
+        p {
+          max-width: 414px;
+          font-size: 20px;
+          font-weight: normal;
+          line-height: 30px;
+          color: #131313;
+        }
+      }
+    }
+  }
+}

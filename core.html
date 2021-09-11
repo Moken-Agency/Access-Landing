@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/styles.css" />
+
+    <title>Access - Core</title>
+  </head>
+  <body>
+    <nav class="nav-container">
+      <div class="nav-wrapper">
+        <a href="/"><img src="assets/logo.svg" /></a>
+        <ul class="nav-links">
+          <!-- <li class="nav-link"><a href="/">Tools</a></li> -->
+          <!-- TODO advanced hover for products -->
+          <li class="nav-link dropdown">
+            <a>Products</a>
+            <div class="dropdown-container">
+              <div class="dropdown-wrapper">
+                <div class="dropdown-product" id="link-1">
+                  <a href="network.html"
+                    ><img src="assets/Group 14 1.webp" alt="" />
+                    <p>
+                      Access a global network of founders, partners, investors &
+                      innovators.
+                    </p></a
+                  >
+                </div>
+                <div class="dropdown-product" id="link-2">
+                  <a href="/core.html">
+                    <img src="assets/Group 10 1.webp" alt="" />
+                    <p>
+                      Access the resources you need to grow & scale your
+                      startup.
+                    </p></a
+                  >
+                </div>
+                <div class="dropdown-product" id="link-3">
+                  <img src="assets/Group 11 4.svg" alt="" />
+                  <p>
+                    Access the talent you need with a smarter & more efficient
+                    job platform.
+                  </p>
+                </div>
+                <div class="dropdown-product" id="link-4">
+                  <img src="assets/Brand Guide.svg" alt="" />
+                  <p>
+                    Access industry leading startups with full service program
+                    management.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-link"><a href="/">Crowdfund with Us</a></li>
+          <!-- <li class="nav-link"><a href="/">Press</a></li> -->
+          <!-- <li class="nav-link">About</li> -->
+        </ul>
+        <div class="nav-btns">
+          <a
+            href="https://moken.mn.co/sign_up?space_id=2457286&from=https%3A%2F%2Fmoken.mn.co%2Ffeed%3Fautojoin%3D1%26autojoin_space_id%3D2457286%26saved_page%3D0"
+            class="btn-black"
+            target="_blank"
+            >Get Started</a
+          >
+          <a href="https://moken.mn.co/feed" class="btn-white" target="_blank"
+            >Log In</a
+          >
+        </div>
+      </div>
+    </nav>
+    <header class="core-header-container">
+      <div class="header-wrapper">
+        <div class="header-text-container">
+          <img src="assets/access-core-logo.svg" />
+          <h1>Access the resources you need to grow & scale your startup.</h1>
+          <p>
+            Plan, collaborate & publish thumb-stopping content that drives
+            meaningful engagement & growth for your brand.
+          </p>
+          <form class="join-waitlist-form">
+            <input type="email" id="2" placeholder="Enter Email Address" />
+            <button class="btn-black" onclick="addContact(event, 2)">
+              Join The Waitlist
+            </button>
+          </form>
+        </div>
+        <div class="header-img-container">
+          <img src="assets/Rectangle 426.svg" />
+          <img src="assets/Rectangle 425.svg" id="rect425" />
+          <img src="assets/Deal Card.webp" id="dealCard" />
+          <img src="assets/Group 43520.webp" id="grp43520" />
+          <img src="assets/Vertical Card.webp" id="vrtCard" />
+        </div>
+      </div>
+    </header>
+    <section class="partners-container">
+      <div class="partners-wrapper">
+        <h3>
+          More that 100 startups & founders trust Access
+        </h3>
+        <div class="partners-logos">
+          <img src="assets/prommoto-logo-blue-1.svg" />
+          <img src="assets/group-3526.svg" />
+          <img src="assets/knowbieLogo.svg" />
+          <img src="assets/group-1993.svg" />
+          <img src="assets/group-3516.svg" />
+          <img src="assets/group.svg" />
+        </div>
+      </div>
+    </section>
+    <section class="ecosystem-container">
+      <div class="ecosystem-wrapper">
+        <div class="ecosystem-text-container">
+          <span>Ecosystem Map</span>
+          <h2>
+            Access investors, startup programs & co-working spaces in one space.
+          </h2>
+          <p>
+            An interactive global map that allows you to search & filter to find
+            exactly what you’re looking for located anywhere in the world.
+          </p>
+        </div>
+        <div class="ecosystem-img-container">
+          <img src="assets/Vector_8.svg" />
+          <img src="assets/Vector_9.svg" id="vec9" />
+          <img src="assets/Workspace Tag.svg" id="work" />
+          <img src="assets/Startup Tag.svg" id="start" />
+          <img src="assets/Group 43592.webp" id="grp592" />
+          <img src="assets/Group 43591.webp" id="grp591" />
+          <img src="assets/Rectangle 428.webp" id="rect428" />
+          <img src="assets/Rectangle 364.webp" id="rect364" />
+        </div>
+      </div>
+      <div class="ecosystem-cards-wrapper">
+        <div class="ecosystem-card">
+          <h3><span>Cross</span> platform functionality</h3>
+          <p>
+            Find opportunities, listings & resources from all Access platforms
+            in one space.
+          </p>
+        </div>
+        <div class="ecosystem-card">
+          <h3><span>Programs</span> & industry support</h3>
+          <p>
+            Find the programs & support you need for your startup from vetted
+            industry experts.
+          </p>
+        </div>
+        <div class="ecosystem-card">
+          <h3><span>Investors</span> & startup funding</h3>
+          <p>
+            Find the investors & funding you need to scale your business
+            successfully.
+          </p>
+        </div>
+        <div class="ecosystem-card">
+          <h3><span>Navigate</span> the global ecosystem</h3>
+          <p>
+            Find opportunities & resources without borders with a fully global
+            map.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="join-waitlist-container">
+      <div class="join-waitlist-wrapper">
+        <h2>Access the resources you need to grow & scale your startup.</h2>
+        <p>Access the resources you need to grow & scale your startup.</p>
+        <form class="join-waitlist-form">
+          <input type="email" id="3" placeholder="Enter Email Address" />
+          <button class="btn-black" onclick="addContact(event, 3)">
+            Join The Waitlist
+          </button>
+        </form>
+      </div>
+    </section>
+    <section class="advisor-container">
+      <div class="advisor-wrapper">
+        <div class="advisor-img-container">
+          <img src="assets/Group 43371.webp" id="grp371" />
+          <img src="assets/Group 43579.webp" id="grp43579" />
+          <img src="assets/Group 43582.webp" id="grp582" />
+          <img src="assets/Group 43581.webp" id="grp581" />
+        </div>
+        <div class="advisor-text-container">
+          <div class="upper-text">
+            <span>Advisory Support</span>
+            <h2>
+              Don’t know where to go from here? Instant advice & guidance at
+              your fingertips.
+            </h2>
+            <p>
+              Get the support you need from vetted industry experts globally
+              with expertise in startups and scale.
+            </p>
+          </div>
+          <div class="bottom-text-container">
+            <div class="bottom-text-card">
+              <h3><span>Book</span> instantly</h3>
+              <p>
+                Bookings can be made instantly for a time that works for your
+                schedule.
+              </p>
+            </div>
+            <div class="bottom-text-card">
+              <h3><span>Wide </span>coverage</h3>
+              <p>
+                Connect with experts from an expanse of industries & all subject
+                matters.
+              </p>
+            </div>
+            <div class="bottom-text-card">
+              <h3><span>Advanced</span> chat features</h3>
+              <p>
+                Upgrade your conversations with video, recording, files & other
+                chat features.
+              </p>
+            </div>
+            <div class="bottom-text-card">
+              <h3><span>Accessibility</span> for all</h3>
+              <p>
+                Access to advisors is available to all users from any Access
+                product.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="innovation-container">
+      <div class="innovation-wrapper">
+        <div class="innovation-img-container">
+          <img src="assets/Vector_6.svg" id="vec6" />
+          <img src="assets/Vector_10.svg" id="vec10" />
+          <img src="assets/Group 43634.webp" id="grp634" />
+          <img src="assets/Share Your Achievement.webp" id="shareAchiv" />
+          <img src="assets/Group 43635.webp" id="grp635" />
+        </div>
+        <div class="innovation-text-container">
+          <span>Innovation Challenges</span>
+          <h2>Challenge yourself to be better than you were yesterday.</h2>
+          <p>
+            Earn badges & rewards for active actions as you build your startup &
+            stay on top of the leaderboard to unlock impact driven prizes &
+            resources helping you to scale.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="bazaar-container">
+      <div class="bazaar-wrapper">
+        <div class="bazaar-text-container">
+          <span>Bazaar & Library</span>
+          <h2>
+            Your discounts, resource & rewards marketplace designed for
+            accessibility.
+          </h2>
+          <p>
+            Access hundreds of vendor partnerships, deals, rewards, resources &
+            support for all of your needs.
+          </p>
+        </div>
+        <div class="bazaar-img-container">
+          <img src="assets/rectangle_54.svg" id="rect54" />
+          <img src="assets/rectangle_427.svg" id="rect427" />
+          <img src="assets/deal_card.webp" id="deal1" />
+          <img src="assets/deal_card1.webp" id="deal2" />
+          <img src="assets/vertical_card.webp" id="vert" />
+        </div>
+      </div>
+      <div class="bazaar-cards-wrapper">
+        <div class="bazaar-card">
+          <h3><span>World-Class</span> Providers & Solution Supporters</h3>
+          <p>
+            Our providers are experienced & well known in the industry with a
+            history of excellence.
+          </p>
+        </div>
+        <div class="bazaar-card">
+          <h3><span>Custom</span> Discounts & Credits for You</h3>
+          <p>
+            Access unlimited offers personalized & tailored specifically based
+            on your industry, company, stage & more.
+          </p>
+        </div>
+        <div class="bazaar-card">
+          <h3><span>Find</span> the Best Tools, Resources & Solutions</h3>
+          <p>
+            Build with confidence. Discover the best tools at the best price &
+            the most robust library of resources globally.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="join-waitlist-container">
+      <div class="join-waitlist-wrapper">
+        <h2>Access the resources you need to grow & scale your startup.</h2>
+        <p>
+          Discover the advisors, deals, and resources you need to build, grow,
+          and scale your startup successfully.
+        </p>
+        <form class="join-waitlist-form">
+          <input type="email" id="4" placeholder="Enter Email Address" />
+          <button class="btn-black" onclick="addContact(event, 4)">
+            Join The Waitlist
+          </button>
+        </form>
+      </div>
+    </section>
+    <footer class="footer-container">
+      <div class="footer-wrapper">
+        <div class="footer-social-logo-container">
+          <div class="footer-logo">
+            <a href="/"><img src="assets/Group 15.svg" /></a>
+            <h5><span>Powered</span> by Moken</h5>
+          </div>
+          <div class="footer-social">
+            <div class="footer-social-icons">
+              <a href="https://instagram.com/accessthefuture" target="_blank"
+                ><img src="assets/instagram.webp"
+              /></a>
+              <a
+                href="https://linkedin.com/showcase/accessthefuture.io"
+                target="_blank"
+              >
+                <img src="assets/linkedin.webp"
+              /></a>
+              <a href="https://twitter.com/accessthefuture" target="_blank"
+                ><img src="assets/twitter.webp"
+              /></a>
+            </div>
+            <p>Copyright ©2021 Access The Future Inc.</p>
+          </div>
+        </div>
+        <div class="footer-links">
+          <ul>
+            <li class="footer-links-title">Products</li>
+            <li><a href="/network.html">Network</a></li>
+            <li><a href="/core.html">Core</a></li>
+            <!-- <li><a>Ecosystem</a></li> -->
+            <!-- <li><a>Pricing</a></li> -->
+          </ul>
+          <ul>
+            <li class="footer-links-title">Company</li>
+            <!-- <li><a>About Us</a></li> -->
+            <!-- <li><a>Brand Kit</a></li> -->
+            <!-- <li><a>Press</a></li> -->
+            <!-- <li><a>Investors</a></li> -->
+            <!-- <li><a>Careers</a></li> -->
+            <li>
+              <a href="https://mokenstartups.com/#/" target="_blank">Moken</a>
+            </li>
+          </ul>
+          <ul>
+            <li class="footer-links-title">Support</li>
+            <!-- <li><a>Help Center</a></li> -->
+            <li><a href="/contact-us.html">Contact Us</a></li>
+            <!-- <li><a>Tutorials</a></li> -->
+            <li>
+              <a href="https://twitter.com/accessthefuture" target="_blank"
+                >Tweet @ Us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"
+    ></script>
+    <script type="text/javascript" src="/scripts/main.js"></script>
+  </body>
+</html>

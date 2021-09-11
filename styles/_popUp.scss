@@ -1,0 +1,74 @@
+.pop-up-container-closed {
+  display: none !important;
+}
+
+.pop-up-container {
+  top: 0;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  z-index: 99999;
+  background-color: rgba($color: #000000, $alpha: 0.4);
+
+  .pop-up-wrapper {
+    position: relative;
+    z-index: 999999;
+    border-radius: 20px;
+    padding: 36px 70px 76px 70px;
+    background-color: #fff;
+    background-image: url("../assets/Filled\ Abstract\ Shape\ 75@2x.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 609px;
+    width: 100%;
+    height: 100%;
+    max-height: 444px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    h4 {
+      font-size: 30px;
+      font-weight: normal;
+      margin: 36px 0 22px 0;
+      span {
+        font-weight: 600;
+      }
+    }
+
+    p {
+      font-size: 16px;
+      font-weight: normal;
+      line-height: 26px;
+      color: #4e5460;
+      max-width: 400px;
+      margin-bottom: 52px;
+    }
+
+    form {
+      position: relative;
+      width: 80%;
+      input {
+        align-self: flex-end;
+        width: 70%;
+        padding: 25px;
+        border: none;
+        border-radius: 14px;
+      }
+
+      button {
+        height: 80%;
+        right: -20px;
+        position: absolute;
+        top: 0;
+        margin: auto;
+        bottom: 0;
+      }
+    }
+  }
+}

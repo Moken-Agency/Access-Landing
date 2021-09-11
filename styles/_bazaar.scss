@@ -1,0 +1,490 @@
+.bazaar-container {
+  width: 100%;
+  margin-top: 150px;
+
+  .bazaar-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    .bazaar-text-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      span {
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 30px;
+        color: #1544d6;
+      }
+
+      h2 {
+        max-width: 460px;
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 45px;
+        margin: 22px 0 36px 0;
+      }
+
+      p {
+        max-width: 414px;
+        font-size: 20px;
+        font-weight: normal;
+        line-height: 30px;
+        color: #131313;
+      }
+    }
+
+    .bazaar-img-container {
+      position: relative;
+
+      img {
+        width: 100%;
+      }
+
+      #rect54 {
+        max-width: 687px;
+      }
+
+      #rect427 {
+        position: absolute;
+        max-width: 670px;
+        top: 60px;
+        left: 30px;
+      }
+
+      #deal1 {
+        position: absolute;
+        max-width: 381px;
+        top: 0;
+        right: -50px;
+      }
+
+      #deal2 {
+        position: absolute;
+        max-width: 381px;
+        bottom: 100px;
+        right: -120px;
+      }
+
+      #vert {
+        position: absolute;
+        max-width: 463px;
+        top: 130px;
+        left: -30px;
+      }
+
+      #vec-12 {
+        max-width: 611px;
+      }
+
+      #vec-13 {
+        position: absolute;
+        max-width: 689px;
+        top: 0;
+        left: 0;
+      }
+
+      #grp606 {
+        position: absolute;
+        max-width: 754px;
+        top: 0;
+        left: 120px;
+      }
+
+      #grp611 {
+        position: absolute;
+        max-width: 754px;
+        bottom: 0;
+        left: -150px;
+      }
+    }
+  }
+
+  .bazaar-cards-wrapper {
+    width: 80%;
+    margin: 200px auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: space-between;
+
+    .bazaar-card {
+      max-width: 316px;
+      color: #131313;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      div {
+        position: relative;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        // align-items: flex-end;
+
+        img {
+          width: 100%;
+        }
+
+        #elp160 {
+          max-width: 138px;
+          margin: 0 auto;
+          z-index: 10;
+          position: relative;
+        }
+
+        #grp622 {
+          position: absolute;
+          max-width: 375px;
+          top: -150px;
+          left: -100px;
+        }
+
+        #elp161 {
+          position: absolute;
+          max-width: 79px;
+          z-index: 11;
+          top: -20px;
+          right: 50px;
+        }
+
+        #elp162 {
+          position: absolute;
+          max-width: 58px;
+          right: 30px;
+          bottom: 0;
+        }
+
+        #grp560 {
+          max-width: 184px;
+          position: relative;
+          z-index: 10;
+        }
+
+        #grp559 {
+          position: absolute;
+          max-width: 195px;
+          top: -50px;
+          left: -50px;
+        }
+
+        #grp562 {
+          position: absolute;
+          max-width: 184px;
+          top: -110px;
+          left: 10px;
+          z-index: 10;
+        }
+
+        #grp623 {
+          position: absolute;
+          max-width: 375px;
+          top: -185px;
+          left: 75px;
+        }
+
+        #elp166 {
+          position: relative;
+          max-width: 126px;
+          z-index: 10;
+        }
+
+        #elp167 {
+          position: absolute;
+          max-width: 72px;
+          z-index: 11;
+          top: 0px;
+          left: 50px;
+        }
+
+        #elp168 {
+          position: absolute;
+          max-width: 53px;
+          z-index: 11;
+          top: 95px;
+          left: 180px;
+        }
+
+        #elp169 {
+          position: absolute;
+          max-width: 53px;
+          top: -60px;
+          left: 100px;
+        }
+
+        #grp618 {
+          position: absolute;
+          max-width: 375px;
+          top: -170px;
+          right: -120px;
+        }
+      }
+
+      .text {
+        display: flex;
+        flex-direction: column;
+        h3 {
+          font-size: 20px;
+          font-weight: normal;
+          line-height: 30px;
+          margin: 0 0 10px 0;
+
+          span {
+            font-weight: 600;
+          }
+        }
+
+        p {
+          font-size: 16px;
+          font-weight: normal;
+          line-height: 30px;
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .bazaar-container {
+    width: 100%;
+    margin-top: 150px;
+
+    .bazaar-wrapper {
+      width: 90%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+
+      .bazaar-text-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        span {
+          font-size: 20px;
+          font-weight: bold;
+          line-height: 30px;
+          color: #1544d6;
+        }
+
+        h2 {
+          max-width: 460px;
+          font-size: 35px;
+          font-weight: 600;
+          line-height: 45px;
+          margin: 22px 0 36px 0;
+        }
+
+        p {
+          max-width: 414px;
+          font-size: 20px;
+          font-weight: normal;
+          line-height: 30px;
+          color: #131313;
+        }
+      }
+
+      .bazaar-img-container {
+        position: relative;
+
+        img {
+          width: 100%;
+        }
+
+        #rect54 {
+          max-width: 687px;
+        }
+
+        #rect427 {
+          position: absolute;
+          max-width: 670px;
+          top: 60px;
+          left: 30px;
+        }
+
+        #deal1 {
+          position: absolute;
+          max-width: 381px;
+          top: 0;
+          right: -50px;
+        }
+
+        #deal2 {
+          position: absolute;
+          max-width: 381px;
+          bottom: 100px;
+          right: -90px;
+        }
+
+        #vert {
+          position: absolute;
+          max-width: 463px;
+          top: 130px;
+          left: -30px;
+        }
+
+        #vec-12 {
+          max-width: 611px;
+        }
+
+        #vec-13 {
+          position: absolute;
+          max-width: 689px;
+          top: 0;
+          left: 0;
+        }
+
+        #grp606 {
+          position: absolute;
+          max-width: 754px;
+          top: 0;
+          left: 120px;
+        }
+
+        #grp611 {
+          position: absolute;
+          max-width: 754px;
+          bottom: 0;
+          left: -150px;
+        }
+      }
+    }
+
+    .bazaar-cards-wrapper {
+      width: 80%;
+      margin: 100px auto 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+
+      .bazaar-card {
+        div {
+          margin-top: 100px;
+          position: relative;
+          margin-bottom: 30px;
+          display: flex;
+          justify-content: center;
+          // align-items: flex-end;
+
+          img {
+            width: 100%;
+          }
+
+          #elp160 {
+            max-width: 138px;
+            margin: 0 auto;
+            z-index: 10;
+            position: relative;
+          }
+
+          #grp622 {
+            position: absolute;
+            max-width: 375px;
+            top: -150px;
+            left: -100px;
+          }
+
+          #elp161 {
+            position: absolute;
+            max-width: 79px;
+            z-index: 11;
+            top: -20px;
+            right: 50px;
+          }
+
+          #elp162 {
+            position: absolute;
+            max-width: 58px;
+            right: 30px;
+            bottom: 0;
+          }
+
+          #grp560 {
+            max-width: 184px;
+            position: relative;
+            z-index: 10;
+          }
+
+          #grp559 {
+            position: absolute;
+            max-width: 195px;
+            top: -50px;
+            left: -50px;
+          }
+
+          #grp562 {
+            position: absolute;
+            max-width: 184px;
+            top: -110px;
+            left: 10px;
+            z-index: 10;
+          }
+
+          #grp623 {
+            position: absolute;
+            max-width: 375px;
+            top: -185px;
+            left: 75px;
+          }
+
+          #elp166 {
+            position: relative;
+            max-width: 126px;
+            z-index: 10;
+          }
+
+          #elp167 {
+            position: absolute;
+            max-width: 72px;
+            z-index: 11;
+            top: 0px;
+            left: 50px;
+          }
+
+          #elp168 {
+            position: absolute;
+            max-width: 53px;
+            z-index: 11;
+            top: 95px;
+            left: 180px;
+          }
+
+          #elp169 {
+            position: absolute;
+            max-width: 53px;
+            top: -60px;
+            left: 100px;
+          }
+
+          #grp618 {
+            position: absolute;
+            max-width: 375px;
+            top: -170px;
+            right: -120px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .bazaar-container {
+    .bazaar-wrapper {
+      width: 100%;
+
+      .bazaar-img-container {
+        display: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,283 @@
+.products-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 250px;
+
+  h3 {
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 45px;
+    margin: 22px 0 36px 0;
+    color: #000;
+  }
+
+  p {
+    color: #131313;
+    margin: 0;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 30px;
+  }
+
+  a {
+    color: #182742;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      filter: brightness(150%);
+    }
+  }
+
+  #a-core {
+    color: #1544d6;
+  }
+
+  #cmgsoon {
+    color: #99c2de;
+
+    &:hover {
+      filter: brightness(115%);
+    }
+  }
+  #a-access {
+    color: #fcc55c;
+
+    &:hover {
+      filter: brightness(115%);
+    }
+  }
+
+  .product-details-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    flex-wrap: wrap;
+
+    .product-details-text {
+      width: 40%;
+    }
+
+    .product-details-img {
+      position: relative;
+      img {
+        width: 100%;
+      }
+
+      #rect425 {
+        position: absolute;
+        top: 10px;
+        left: -10px;
+      }
+
+      #grp19 {
+        position: absolute;
+        top: 10px;
+        left: 115px;
+      }
+
+      #grp01 {
+        position: absolute;
+        top: 165px;
+        left: -90px;
+      }
+
+      #grp20 {
+        position: absolute;
+        bottom: 50px;
+        left: 210px;
+      }
+
+      #vec9 {
+        position: absolute;
+        top: 0px;
+        left: -60px;
+      }
+
+      #jobopr {
+        position: absolute;
+        width: 335.2px;
+        top: 110px;
+        left: 20px;
+      }
+
+      #grp562 {
+        position: absolute;
+        top: 175px;
+        left: 260px;
+        width: 118px;
+      }
+
+      #grp559 {
+        position: absolute;
+        width: 128.9px;
+        bottom: 160px;
+        left: 60px;
+      }
+
+      #jobopr2 {
+        position: absolute;
+        width: 336.3px;
+        bottom: 130px;
+        right: -50px;
+      }
+
+      #elp1 {
+        position: absolute;
+        bottom: 50px;
+        width: 75.1px;
+        left: 270px;
+      }
+
+      #elp2 {
+        position: absolute;
+        width: 146px;
+        top: 100px;
+        right: 0;
+      }
+    }
+  }
+
+  .product-details-wrapper-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    flex-wrap: wrap;
+
+    .product-details-text {
+      max-width: 40%;
+    }
+
+    .product-details-img {
+      position: relative;
+
+      #vec10 {
+        position: absolute;
+        left: -70px;
+        top: -50px;
+      }
+
+      #invtg {
+        position: absolute;
+        top: 100px;
+        left: 130px;
+      }
+
+      #strptg {
+        position: absolute;
+        left: -20px;
+        top: 300px;
+      }
+
+      #grp519 {
+        position: absolute;
+        top: 220px;
+        max-width: 178.5px;
+        right: 20px;
+        z-index: 99;
+      }
+
+      #grp59 {
+        position: absolute;
+        top: 160px;
+        left: 50px;
+        max-width: 522.8px;
+      }
+
+      #dlcrd {
+        position: absolute;
+        bottom: 130px;
+        left: -25px;
+        max-width: 317px;
+      }
+
+      #vec11 {
+        position: absolute;
+        top: -50px;
+        left: -50px;
+      }
+
+      #map {
+        position: absolute;
+        max-width: 138.2px;
+        bottom: 90px;
+        right: 40px;
+        z-index: 999;
+      }
+
+      #jobcard {
+        position: absolute;
+        top: 80px;
+        right: 50px;
+      }
+
+      #grp565 {
+        position: absolute;
+        max-width: 217.1px;
+        bottom: 100px;
+        left: -10px;
+      }
+
+      #map2 {
+        position: absolute;
+        max-width: 220px;
+        top: 50px;
+        left: 30px;
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .products-details-container {
+    .product-details-wrapper {
+      justify-content: center;
+      width: 80%;
+
+      .product-details-text {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+      }
+    }
+
+    .product-details-wrapper-reverse {
+      justify-content: center;
+
+      .product-details-text {
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .products-details-container {
+    .product-details-wrapper {
+      justify-content: center;
+      width: 80%;
+
+      .product-details-img {
+        display: none;
+      }
+    }
+
+    .product-details-wrapper-reverse {
+      .product-details-img {
+        display: none;
+      }
+    }
+  }
+}

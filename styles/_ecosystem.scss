@@ -1,0 +1,276 @@
+.ecosystem-container {
+  width: 100%;
+  margin-top: 250px;
+
+  .ecosystem-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+    .ecosystem-text-container {
+      span {
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 30px;
+        color: #1e48ce;
+      }
+
+      h2 {
+        max-width: 461px;
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 45px;
+        margin: 22px 0 36px 0;
+      }
+
+      p {
+        max-width: 394px;
+        font-size: 20px;
+        font-weight: normal;
+        line-height: 30px;
+        color: #131313;
+      }
+
+      a {
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 30px;
+        color: #182742;
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+          filter: brightness(150%);
+        }
+      }
+    }
+
+    .ecosystem-img-container {
+      position: relative;
+
+      img {
+        width: 100%;
+      }
+
+      #vec9 {
+        position: absolute;
+        top: -60px;
+        left: -40px;
+      }
+
+      #work {
+        position: absolute;
+        max-width: 109px;
+        bottom: 150px;
+        left: -50px;
+      }
+
+      #start {
+        position: absolute;
+        max-width: 84px;
+        right: 40px;
+        top: 130px;
+      }
+
+      #grp592 {
+        position: absolute;
+        max-width: 676px;
+        top: -40px;
+        left: -180px;
+      }
+
+      #grp591 {
+        position: absolute;
+        max-width: 675px;
+        bottom: 0px;
+        left: 50px;
+      }
+
+      #rect428 {
+        position: absolute;
+        max-width: 144.2px;
+        top: -50px;
+        right: 70px;
+      }
+
+      #rect364 {
+        position: absolute;
+        max-width: 62px;
+        top: -70px;
+        right: 45px;
+      }
+
+      // #rect364 {
+      //   position: absolute;
+      //   max-width: 62px;
+      //   top: -70px;
+      //   right: 45px;
+      // }
+
+      #vec-10 {
+        position: absolute;
+
+        top: 15px;
+        left: 25px;
+      }
+
+      #grp609 {
+        position: absolute;
+        max-width: 840px;
+        top: 40px;
+        left: 100px;
+      }
+
+      #grp601 {
+        position: absolute;
+        max-width: 819px;
+        bottom: 20px;
+        left: 0px;
+      }
+
+      #vec-8 {
+        max-width: 718px;
+      }
+
+      #vec-9 {
+        position: absolute;
+        max-width: 673px;
+        left: 25px;
+        top: 0;
+      }
+
+      #grp621 {
+        position: absolute;
+        max-width: 555px;
+        top: 10px;
+        left: 100px;
+      }
+
+      #elp165 {
+        position: absolute;
+        max-width: 122px;
+        right: 60px;
+        top: 0;
+      }
+
+      #elp164 {
+        position: absolute;
+        max-width: 81px;
+        top: 240px;
+        left: 20px;
+      }
+
+      #elp163 {
+        position: absolute;
+        max-width: 152px;
+        right: 0;
+        bottom: 0;
+      }
+    }
+  }
+
+  .ecosystem-cards-wrapper {
+    width: 80%;
+    margin: 100px auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: space-between;
+
+    .ecosystem-card {
+      max-width: 240px;
+      color: #131313;
+
+      h3 {
+        font-size: 20px;
+        font-weight: normal;
+        line-height: 30px;
+        margin: 0 0 10px 0;
+
+        span {
+          font-weight: 600;
+        }
+      }
+
+      p {
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 30px;
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .ecosystem-container {
+    width: 100%;
+    margin-top: 250px;
+
+    .ecosystem-wrapper {
+      justify-content: center;
+
+      .ecosystem-text-container {
+        text-align: center;
+        margin-bottom: 50px;
+      }
+
+      .ecosystem-img-container {
+        position: relative;
+      }
+    }
+
+    .ecosystem-cards-wrapper {
+      width: 80%;
+      margin: 100px auto 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 25px;
+      justify-content: center;
+
+      .ecosystem-card {
+        max-width: 240px;
+        color: #131313;
+
+        h3 {
+          font-size: 20px;
+          font-weight: normal;
+          line-height: 30px;
+          margin: 0 0 10px 0;
+
+          span {
+            font-weight: 600;
+          }
+        }
+
+        p {
+          font-size: 16px;
+          font-weight: normal;
+          line-height: 30px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .ecosystem-container {
+    width: 100%;
+    margin-top: 250px;
+
+    .ecosystem-wrapper {
+      justify-content: center;
+
+      .ecosystem-text-container {
+        text-align: center;
+        margin-bottom: 50px;
+      }
+
+      .ecosystem-img-container {
+        display: none;
+      }
+    }
+  }
+}

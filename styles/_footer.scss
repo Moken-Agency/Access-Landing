@@ -1,0 +1,212 @@
+.footer-container {
+  width: 100%;
+  padding: 140px 0 40px 0;
+  margin-top: 100px;
+
+  // height: 300px;
+
+  .footer-wrapper {
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .footer-social-logo-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+
+      .footer-logo {
+        margin-bottom: 200px;
+        img {
+          max-width: 233px;
+          width: 100%;
+        }
+
+        h5 {
+          font-size: 14px;
+          font-weight: normal;
+          line-height: 20px;
+          margin: 0;
+
+          span {
+            font-weight: 700;
+          }
+        }
+      }
+
+      .footer-social {
+        .footer-social-icons {
+          display: flex;
+          flex-direction: row;
+          gap: 22px;
+          align-items: flex-end;
+
+          a {
+            max-height: 41px;
+
+            &:first-child {
+              margin-bottom: -2px;
+            }
+
+            &:last-child {
+              margin-bottom: -3px;
+            }
+          }
+        }
+
+        p {
+          margin: 19px 0 0 0;
+          font-size: 12px;
+          font-weight: normal;
+          line-height: 20px;
+        }
+      }
+
+      @media (max-width: 600px) {
+        & {
+          margin: 0 auto;
+          margin-bottom: 50px;
+
+          .footer-logo {
+            margin-bottom: 50px;
+          }
+
+          .footer-social {
+            text-align: center;
+
+            .footer-social-icons {
+              justify-content: center;
+            }
+          }
+        }
+      }
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 114px;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+          display: flex;
+          flex-direction: column;
+          gap: 19px;
+          flex-wrap: wrap;
+          font-size: 20px;
+
+          &.footer-links-title {
+            font-weight: 600;
+          }
+
+          a {
+            text-decoration: none;
+            transition: all 0.2s ease-in-out;
+            font-weight: 400;
+            color: #000;
+
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .footer-container {
+    .footer-wrapper {
+      justify-content: center;
+
+      .footer-social-logo-container {
+        justify-content: center;
+
+        .footer-logo {
+          margin-bottom: 50px;
+          text-align: center;
+        }
+
+        .footer-social {
+          margin-bottom: 50px;
+          .footer-social-icons {
+            text-align: center;
+            justify-content: center;
+          }
+
+          p {
+            margin: 19px 0 0 0;
+            font-size: 12px;
+            font-weight: normal;
+            line-height: 20px;
+          }
+        }
+
+        @media (max-width: 600px) {
+          & {
+            margin: 0 auto;
+            margin-bottom: 50px;
+
+            .footer-logo {
+              margin-bottom: 50px;
+            }
+
+            .footer-social {
+              text-align: center;
+
+              .footer-social-icons {
+                justify-content: center;
+              }
+            }
+          }
+        }
+      }
+
+      .footer-links {
+        display: flex;
+        gap: 114px;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        ul {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+
+          li {
+            display: flex;
+            flex-direction: column;
+            gap: 19px;
+            flex-wrap: wrap;
+            font-size: 20px;
+
+            &.footer-links-title {
+              font-weight: 600;
+            }
+
+            a {
+              text-decoration: none;
+              transition: all 0.2s ease-in-out;
+              font-weight: 400;
+              color: #000;
+
+              &:hover {
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

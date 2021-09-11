@@ -1,0 +1,19 @@
+@import "_fonts", "_buttons", "_navbar", "_header", "_partners", "_products",
+  "_crowdfunding", "_productsDetails", "_tools", "_platforms", "_joinCommunity",
+  "_footer", "_coreHeader", "_joinWaitlistForm", "_ecosystem", "_joinWaitlist",
+  "_advisor", "_innovation", "_bazaar", "_network", "_contactUs", "_popUp";
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Lufga";
+  margin: 0;
+  overflow-x: hidden;
+  overflow: hidden;
+
+  button {
+    font-family: "Lufga";
+  }
+}

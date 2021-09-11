@@ -1,0 +1,153 @@
+.core-header-container {
+  width: 100%;
+  margin-top: 160px;
+  margin-bottom: 180px;
+
+  .header-wrapper {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+
+    .header-text-container {
+      max-width: 513px;
+
+      img {
+        max-height: 16px;
+      }
+
+      h1 {
+        font-size: 50px;
+        font-weight: 600;
+        margin: 18px 0 41px 0;
+      }
+
+      p {
+        font-size: 20px;
+        color: #131313;
+        font-weight: normal;
+        margin-bottom: 70px;
+      }
+    }
+
+    .header-img-container {
+      position: relative;
+
+      img {
+        width: 100%;
+      }
+
+      #rect425 {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+      #dealCard {
+        position: absolute;
+        max-width: 352px;
+        top: -50px;
+        left: 15px;
+      }
+
+      #grp43520 {
+        position: absolute;
+        max-width: 444px;
+        bottom: 0;
+        left: -100px;
+      }
+
+      #vrtCard {
+        position: absolute;
+        max-width: 411px;
+        bottom: 0;
+        right: 0;
+      }
+
+      #vec7 {
+        max-width: 657px;
+      }
+
+      #vec11 {
+        position: absolute;
+        top: 30px;
+        left: 20px;
+      }
+
+      #elp139 {
+        position: absolute;
+        top: 0;
+        right: 0;
+        max-width: 152px;
+      }
+
+      #grp610 {
+        position: absolute;
+        top: 50px;
+        left: -80px;
+        max-width: 719px;
+      }
+
+      #elp140 {
+        position: absolute;
+        top: 250px;
+        left: -10px;
+        max-width: 81px;
+      }
+
+      #grp620 {
+        position: absolute;
+        top: 150px;
+        left: 70px;
+        max-width: 663px;
+      }
+
+      #grp619 {
+        position: absolute;
+        bottom: 20px;
+        left: -40px;
+        max-width: 663px;
+      }
+
+      #elp170 {
+        position: absolute;
+        bottom: -30px;
+        right: 220px;
+        max-width: 120px;
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .core-header-container {
+    .header-wrapper {
+      justify-content: center;
+
+      .header-text-container {
+        max-width: 90%;
+        text-align: center;
+        margin-bottom: 50px;
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .core-header-container {
+    .header-wrapper {
+      justify-content: center;
+
+      .header-text-container {
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .header-img-container {
+        display: none;
+      }
+    }
+  }
+}
