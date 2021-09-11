@@ -1351,10 +1351,11 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 19px;
+  gap: 20px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   font-size: 20px;
+  margin-bottom: 20px;
 }
 
 .footer-container .footer-wrapper .footer-links ul li.footer-links-title {
