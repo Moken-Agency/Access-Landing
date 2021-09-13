@@ -759,6 +759,7 @@
   width: 80%;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin-bottom: 250px;
 }
 
 .products-details-container .product-details-wrapper .product-details-text {
@@ -869,6 +870,7 @@
   width: 80%;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin-bottom: 250px;
 }
 
 .products-details-container .product-details-wrapper-reverse .product-details-text {
@@ -1007,7 +1009,6 @@
 
 .tools-container {
   width: 100%;
-  margin-top: 200px;
 }
 
 .tools-container .tools-wrapper {
@@ -1029,6 +1030,7 @@
 .tools-container .tools-wrapper .tools-text-container {
   max-width: 628px;
   text-align: center;
+  margin-bottom: 70px;
 }
 
 .tools-container .tools-wrapper .tools-text-container span {
@@ -1060,6 +1062,16 @@
 
 .tools-container .tools-wrapper .tools-cards-container .tools-card {
   position: relative;
+  margin: -80px;
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.tools-container .tools-wrapper .tools-cards-container .tools-card:hover {
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 .tools-container .tools-wrapper .tools-cards-container .tools-card #smallMap {
@@ -1541,7 +1553,8 @@
 .core-header-container .header-wrapper .header-text-container h1 {
   font-size: 50px;
   font-weight: 600;
-  margin: 18px 0 41px 0;
+  margin: 18.9px 0 41px 0;
+  max-width: 513px;
 }
 
 .core-header-container .header-wrapper .header-text-container p {
@@ -1549,6 +1562,7 @@
   color: #131313;
   font-weight: normal;
   margin-bottom: 70px;
+  max-width: 472px;
 }
 
 .core-header-container .header-wrapper .header-text-container a {
@@ -1578,6 +1592,7 @@
 
 .core-header-container .header-wrapper .header-img-container #grp43520 {
   position: absolute;
+  max-height: 475px;
   max-width: 444px;
   bottom: 0;
   left: -100px;
@@ -1672,7 +1687,6 @@
 }
 
 .join-waitlist-form {
-  height: 64px;
   position: relative;
 }
 
@@ -1680,9 +1694,10 @@
   border-radius: 20px;
   border: none;
   background-color: #f9f9f9;
-  padding: 18px;
+  padding: 36px;
   outline: none;
-  width: 272px;
+  width: 45%;
+  max-width: 386px;
 }
 
 .join-waitlist-form input:focus {
@@ -1709,7 +1724,11 @@
   position: absolute;
   right: 115px;
   top: 0px;
+  bottom: 0;
+  margin: auto 0;
   padding: 16px 23px;
+  font-weight: 600;
+  height: 64px;
 }
 
 @media (max-width: 800px) {
@@ -1753,7 +1772,7 @@
 
 .ecosystem-container .ecosystem-wrapper .ecosystem-text-container span {
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 600;
   line-height: 30px;
   color: #1e48ce;
 }
@@ -1772,6 +1791,7 @@
   font-weight: normal;
   line-height: 30px;
   color: #131313;
+  margin-bottom: 26px;
 }
 
 .ecosystem-container .ecosystem-wrapper .ecosystem-text-container a {
@@ -1905,7 +1925,7 @@
 }
 
 .ecosystem-container .ecosystem-cards-wrapper {
-  width: 80%;
+  width: 79%;
   margin: 100px auto 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2346,7 +2366,7 @@
 }
 
 .bazaar-container .bazaar-wrapper {
-  width: 90%;
+  width: 85%;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2378,15 +2398,15 @@
 }
 
 .bazaar-container .bazaar-wrapper .bazaar-text-container h2 {
-  max-width: 460px;
+  max-width: 366px;
   font-size: 35px;
   font-weight: 600;
   line-height: 45px;
-  margin: 22px 0 36px 0;
+  margin: 19px 0 36px 0;
 }
 
 .bazaar-container .bazaar-wrapper .bazaar-text-container p {
-  max-width: 414px;
+  max-width: 394px;
   font-size: 20px;
   font-weight: normal;
   line-height: 30px;
@@ -2459,7 +2479,7 @@
 }
 
 .bazaar-container .bazaar-cards-wrapper {
-  width: 80%;
+  width: 72%;
   margin: 200px auto 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2489,7 +2509,7 @@
 
 .bazaar-container .bazaar-cards-wrapper .bazaar-card div {
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 45px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2609,7 +2629,7 @@
   font-size: 20px;
   font-weight: normal;
   line-height: 30px;
-  margin: 0 0 10px 0;
+  margin: 0 0 15px 0;
 }
 
 .bazaar-container .bazaar-cards-wrapper .bazaar-card .text h3 span {
@@ -3091,7 +3111,7 @@
 }
 
 .contact-us-container {
-  min-height: 590.4px;
+  min-height: 88vh;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3125,6 +3145,8 @@
   position: absolute;
   right: 0;
   top: -0px;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 
 .contact-us-container .contact-us-wrapper {
@@ -3185,6 +3207,7 @@
 .contact-us-container .contact-us-wrapper .links-wrapper .links-card h3 {
   font-weight: 600;
   font-size: 35px;
+  margin: 14px 0 45px 0;
   line-height: 45px;
 }
 
@@ -3194,6 +3217,7 @@
   font-weight: normal;
   line-height: 30px;
   text-decoration: none;
+  margin-bottom: 8px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
@@ -3207,6 +3231,7 @@
   font-size: 16px;
   font-weight: normal;
   line-height: 30px;
+  margin: 0;
 }
 
 @media (max-width: 450px) {

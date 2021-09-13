@@ -1,14 +1,15 @@
 .join-waitlist-form {
-  height: 64px;
   position: relative;
 
   input {
     border-radius: 20px;
     border: none;
     background-color: #f9f9f9;
-    padding: 18px;
+    padding: 36px;
     outline: none;
-    width: 272px;
+    width: 45%;
+    max-width: 386px;
+    // height: 86px;
 
     &:focus {
       border: 1px solid blue;
@@ -23,7 +24,11 @@
     position: absolute;
     right: 115px;
     top: 0px;
+    bottom: 0;
+    margin: auto 0;
     padding: 16px 23px;
+    font-weight: 600;
+    height: 64px;
   }
 }
 

@@ -13,7 +13,7 @@
     .ecosystem-text-container {
       span {
         font-size: 20px;
-        font-weight: bold;
+        font-weight: 600;
         line-height: 30px;
         color: #1e48ce;
       }
@@ -32,6 +32,7 @@
         font-weight: normal;
         line-height: 30px;
         color: #131313;
+        margin-bottom: 26px;
       }
 
       a {
@@ -173,7 +174,7 @@
   }
 
   .ecosystem-cards-wrapper {
-    width: 80%;
+    width: 79%;
     margin: 100px auto 0 auto;
     display: flex;
     flex-wrap: wrap;

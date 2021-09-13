@@ -1,6 +1,5 @@
 .tools-container {
   width: 100%;
-  margin-top: 200px;
 
   .tools-wrapper {
     display: flex;
@@ -11,6 +10,7 @@
     .tools-text-container {
       max-width: 628px;
       text-align: center;
+      margin-bottom: 70px;
 
       span {
         font-size: 16px;
@@ -34,6 +34,13 @@
 
       .tools-card {
         position: relative;
+        margin: -80px;
+        transform: scale(0.98);
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+          transform: scale(1);
+        }
 
         #smallMap {
           position: absolute;
