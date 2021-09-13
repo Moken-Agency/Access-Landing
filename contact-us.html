@@ -55,6 +55,31 @@
     </script>
   </head>
   <body>
+    <div
+      class="pop-up-container pop-up-container-closed"
+      onclick="closeOpenPopUp()"
+      id="popup"
+    >
+      <div class="pop-up-wrapper" id="wrapper" onclick="closeOpenPopUp()">
+        <img src="assets/logo.svg" alt="" />
+        <h4><span>Can’t</span> wait for launch?</h4>
+        <p>
+          With products & tools launching every month joining the waitlist is
+          your best way to stay up to date & be notified each time a new product
+          drops!
+        </p>
+        <form>
+          <input
+            type="email"
+            id="7"
+            required
+            placeholder="Enter Your Email"
+          /><button class="btn-black" onclick="addContact(event, 7)">
+            Join The Waitlist
+          </button>
+        </form>
+      </div>
+    </div>
     <nav class="nav-container">
       <div class="nav-wrapper">
         <a href="/Access-Landing"><img src="assets/logo.svg" /></a>
