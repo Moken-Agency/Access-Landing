@@ -21,11 +21,12 @@
     font-weight: normal;
     line-height: 30px;
     max-width: 395px;
+    margin-bottom: 13px;
   }
 
   a {
     color: #182742;
-    margin-top: 15px;
+
     font-size: 20px;
     font-weight: 600;
     line-height: 30px;
@@ -46,7 +47,7 @@
     color: #99c2de;
 
     &:hover {
-      filter: brightness(115%);
+      filter: brightness(110%);
     }
   }
   #a-access {

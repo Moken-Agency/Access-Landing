@@ -434,6 +434,10 @@
   line-height: 30px;
 }
 
+.main-header .header-text-partners a {
+  padding: 21px 36px;
+}
+
 @media (max-width: 770px) {
   .main-header {
     height: 70vh;
@@ -689,11 +693,11 @@
   font-weight: normal;
   line-height: 30px;
   max-width: 395px;
+  margin-bottom: 13px;
 }
 
 .products-details-container a {
   color: #182742;
-  margin-top: 15px;
   font-size: 20px;
   font-weight: 600;
   line-height: 30px;
@@ -717,8 +721,8 @@
 }
 
 .products-details-container #cmgsoon:hover {
-  -webkit-filter: brightness(115%);
-          filter: brightness(115%);
+  -webkit-filter: brightness(110%);
+          filter: brightness(110%);
 }
 
 .products-details-container #a-access {
@@ -1529,6 +1533,10 @@
   color: #131313;
   font-weight: normal;
   margin-bottom: 70px;
+}
+
+.core-header-container .header-wrapper .header-text-container a {
+  padding: 21px 30px;
 }
 
 .core-header-container .header-wrapper .header-img-container {
