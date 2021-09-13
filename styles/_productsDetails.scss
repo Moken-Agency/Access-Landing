@@ -11,6 +11,7 @@
     line-height: 45px;
     margin: 22px 0 36px 0;
     color: #000;
+    max-width: 461px;
   }
 
   p {
@@ -19,6 +20,7 @@
     font-size: 20px;
     font-weight: normal;
     line-height: 30px;
+    max-width: 395px;
   }
 
   a {
@@ -96,15 +98,21 @@
         left: 210px;
       }
 
+      #vec88 {
+        max-width: 765px;
+      }
+
       #vec9 {
         position: absolute;
         top: 0px;
-        left: -60px;
+        left: 0px;
+        max-width: 100%;
+        transform: scale(1.15);
       }
 
       #jobopr {
         position: absolute;
-        width: 335.2px;
+        max-width: 421px;
         top: 110px;
         left: 20px;
       }
@@ -113,33 +121,33 @@
         position: absolute;
         top: 175px;
         left: 260px;
-        width: 118px;
+        max-width: 184px;
       }
 
       #grp559 {
         position: absolute;
-        width: 128.9px;
-        bottom: 160px;
+        max-width: 195px;
+        bottom: 140px;
         left: 60px;
       }
 
       #jobopr2 {
         position: absolute;
-        width: 336.3px;
-        bottom: 130px;
-        right: -50px;
+        max-width: 423px;
+        bottom: 70px;
+        right: -70px;
       }
 
       #elp1 {
         position: absolute;
         bottom: 50px;
-        width: 75.1px;
+        max-width: 81px;
         left: 270px;
       }
 
       #elp2 {
         position: absolute;
-        width: 146px;
+        max-width: 152px;
         top: 100px;
         right: 0;
       }
@@ -161,57 +169,69 @@
     .product-details-img {
       position: relative;
 
+      #vec66 {
+        max-width: 634px;
+      }
+
       #vec10 {
         position: absolute;
         left: -70px;
         top: -50px;
+        max-width: 782px;
       }
 
       #invtg {
         position: absolute;
         top: 100px;
         left: 130px;
+        max-width: 76px;
       }
 
       #strptg {
         position: absolute;
         left: -20px;
         top: 300px;
+        max-width: 74px;
       }
 
       #grp519 {
         position: absolute;
-        top: 220px;
-        max-width: 178.5px;
-        right: 20px;
+        top: 80px;
+        right: -190px;
         z-index: 99;
+        max-width: 395px;
       }
 
       #grp59 {
         position: absolute;
-        top: 160px;
-        left: 50px;
-        max-width: 522.8px;
+        top: 140px;
+        left: 30px;
+        max-width: 612px;
       }
 
       #dlcrd {
         position: absolute;
-        bottom: 130px;
-        left: -25px;
-        max-width: 317px;
+        bottom: 60px;
+        left: -80px;
+        max-width: 397px;
+      }
+
+      #vec77 {
+        max-width: 773px;
       }
 
       #vec11 {
         position: absolute;
         top: -50px;
         left: -50px;
+        max-width: 854px;
       }
 
       #map {
         position: absolute;
-        max-width: 138.2px;
-        bottom: 90px;
-        right: 40px;
+        max-width: 230px;
+        bottom: 50px;
+        right: -10px;
         z-index: 999;
       }
 
@@ -219,20 +239,21 @@
         position: absolute;
         top: 80px;
         right: 50px;
+        max-width: 467px;
       }
 
       #grp565 {
         position: absolute;
-        max-width: 217.1px;
-        bottom: 100px;
-        left: -10px;
+        max-width: 466px;
+        bottom: -120px;
+        left: -50px;
       }
 
       #map2 {
         position: absolute;
-        max-width: 220px;
-        top: 50px;
-        left: 30px;
+        max-width: 358px;
+        top: 45px;
+        left: -50px;
       }
     }
   }

@@ -7,7 +7,7 @@
 
   .footer-wrapper {
     height: 100%;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -21,6 +21,7 @@
 
       .footer-logo {
         margin-bottom: 200px;
+        width: 100%;
         img {
           max-width: 233px;
           width: 100%;
@@ -88,7 +89,7 @@
 
     .footer-links {
       display: flex;
-      gap: 114px;
+      gap: 109px;
       flex-wrap: wrap;
       justify-content: center;
 
@@ -100,10 +101,10 @@
         li {
           display: flex;
           flex-direction: column;
-          gap: 20px;
+          // gap: 15px;
           flex-wrap: wrap;
           font-size: 20px;
-          margin-bottom: 20px;
+          margin-bottom: 17px;
 
           &.footer-links-title {
             font-weight: 600;
