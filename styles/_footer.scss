@@ -49,6 +49,10 @@
           a {
             max-height: 41px;
 
+            img {
+              max-height: 41px;
+            }
+
             &:first-child {
               margin-bottom: -2px;
             }

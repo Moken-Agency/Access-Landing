@@ -1331,6 +1331,10 @@
   max-height: 41px;
 }
 
+.footer-container .footer-wrapper .footer-social-logo-container .footer-social .footer-social-icons a img {
+  max-height: 41px;
+}
+
 .footer-container .footer-wrapper .footer-social-logo-container .footer-social .footer-social-icons a:first-child {
   margin-bottom: -2px;
 }
