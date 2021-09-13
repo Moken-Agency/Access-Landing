@@ -5,32 +5,34 @@
 
   .header-left-img {
     position: relative;
-    width: 420px;
+    // width: 420px;
 
     img {
-      width: 100%;
+      // width: 100%;
     }
 
     #img-1 {
       position: absolute;
       left: 0;
-      top: -80px;
+      top: -100px;
       z-index: 99;
+      max-width: 606px;
     }
 
     #img-2 {
       position: absolute;
       left: 0;
-      top: -20px;
+      top: -70px;
+      max-width: 565px;
     }
   }
 
   .header-right-img {
     position: relative;
-    width: 475px;
+    // width: 475px;
 
     img {
-      width: 100%;
+      // width: 100%;
     }
 
     #img-3 {
@@ -38,14 +40,15 @@
       right: 0;
       top: 10px;
       object-fit: cover;
+      max-width: 547px;
     }
 
     #img-4 {
       position: absolute;
       right: 0;
       object-fit: cover;
-
-      top: -10px;
+      max-width: 622px;
+      top: -50px;
     }
   }
 
