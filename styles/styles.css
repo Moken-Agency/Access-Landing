@@ -580,9 +580,9 @@
 
 .crowdfunding-container .crowdfunding-wrapper .crowdfunding-image #ifw-btn {
   position: absolute;
-  top: 40px;
-  right: -30px;
-  width: 150px;
+  top: 20px;
+  right: -60px;
+  max-width: 169px;
 }
 
 .crowdfunding-container .crowdfunding-wrapper .crowdfunding-image #fund-it-btn {
@@ -598,7 +598,7 @@
 
 .crowdfunding-container .crowdfunding-wrapper .crowdfunding-text span {
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 600;
   line-height: 30px;
 }
 
@@ -606,6 +606,7 @@
   max-width: 14px 0 24px 0;
   font-size: 35px;
   font-weight: 600;
+  max-width: 473;
   line-height: 45px;
 }
 
@@ -614,6 +615,7 @@
   font-weight: normal;
   line-height: 30px;
   margin-bottom: 34px;
+  max-width: 504;
 }
 
 .crowdfunding-container .crowdfunding-wrapper .crowdfunding-text a {
@@ -622,8 +624,18 @@
   font-size: 16px;
   font-weight: bold;
   background-color: #fff;
+  border: 1px solid #fff;
   padding: 14px 30px;
   border-radius: 14px;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.crowdfunding-container .crowdfunding-wrapper .crowdfunding-text a:hover {
+  color: #fff;
+  background-color: #131313;
+  border: 1px solid #fff;
 }
 
 @media (max-width: 800px) {
@@ -2931,6 +2943,7 @@
   font-weight: 600;
   line-height: 45px;
   margin: 32px 0 36px 0;
+  max-width: 344px;
 }
 
 .network-container .network-wrapper .network-text-container .upper-text p {
@@ -2939,6 +2952,7 @@
   font-weight: normal;
   line-height: 30px;
   color: #131313;
+  max-width: 394px;
 }
 
 .network-container .network-wrapper .network-text-container .bottom-text-container {
