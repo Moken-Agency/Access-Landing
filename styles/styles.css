@@ -2392,11 +2392,15 @@
 }
 
 .bazaar-container .bazaar-wrapper .bazaar-text-container h2 {
-  max-width: 366px;
+  max-width: 461px;
   font-size: 35px;
   font-weight: 600;
   line-height: 45px;
   margin: 19px 0 36px 0;
+}
+
+.bazaar-container .bazaar-wrapper .bazaar-text-container #headerTextNetwork {
+  max-width: 366px;
 }
 
 .bazaar-container .bazaar-wrapper .bazaar-text-container p {
@@ -2473,7 +2477,7 @@
 }
 
 .bazaar-container .bazaar-cards-wrapper {
-  width: 72%;
+  width: 74%;
   margin: 200px auto 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2609,28 +2613,20 @@
   right: -120px;
 }
 
-.bazaar-container .bazaar-cards-wrapper .bazaar-card .text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.bazaar-container .bazaar-cards-wrapper .bazaar-card .text h3 {
+.bazaar-container .bazaar-cards-wrapper .bazaar-card h3 {
+  max-width: 230px;
   font-size: 20px;
-  font-weight: normal;
+  font-weight: 400;
   line-height: 30px;
   margin: 0 0 15px 0;
 }
 
-.bazaar-container .bazaar-cards-wrapper .bazaar-card .text h3 span {
+.bazaar-container .bazaar-cards-wrapper .bazaar-card h3 span {
   font-weight: 600;
 }
 
-.bazaar-container .bazaar-cards-wrapper .bazaar-card .text p {
+.bazaar-container .bazaar-cards-wrapper .bazaar-card p {
+  max-width: 316px;
   font-size: 16px;
   font-weight: normal;
   line-height: 30px;
