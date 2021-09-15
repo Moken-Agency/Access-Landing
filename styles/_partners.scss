@@ -4,6 +4,8 @@
   .partners-wrapper {
     margin: 0 auto;
     text-align: center;
+    position: relative;
+    z-index: 99;
 
     h3 {
       font-size: 20px;
