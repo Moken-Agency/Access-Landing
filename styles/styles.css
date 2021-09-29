@@ -534,7 +534,7 @@
 }
 
 .products-container .products-wrapper .product-cards-container .product-card img {
-  margin: 0 -100px 0 -100px;
+  margin: 0 -110px 0 -110px;
 }
 
 .products-container .products-wrapper .product-cards-container .product-card:hover {
@@ -752,7 +752,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 80%;
+  width: 90%;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-bottom: 250px;
@@ -863,7 +863,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 80%;
+  width: 90%;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-bottom: 250px;
@@ -1526,7 +1526,7 @@
 }
 
 .core-header-container .header-wrapper {
-  width: 75%;
+  width: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1751,7 +1751,7 @@
 }
 
 .ecosystem-container .ecosystem-wrapper {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2085,7 +2085,7 @@
 .advisor-container .advisor-wrapper .advisor-img-container #grp43579 {
   position: absolute;
   max-width: 314px;
-  left: -150px;
+  left: -120px;
   bottom: -40px;
 }
 
