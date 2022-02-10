@@ -8,9 +8,13 @@
   .nav-wrapper {
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 80%;
+
+    .accessLogo {
+      margin-right: auto;
+    }
 
     .nav-btns {
       display: flex;
@@ -25,6 +29,7 @@
       padding: 0;
       display: flex;
       align-items: center;
+      margin-right: auto;
       gap: 30px;
 
       .dropdown {
@@ -59,7 +64,7 @@
           transition: all 0.4s ease-in-out;
           position: absolute;
           left: 0;
-          bottom: -290px;
+          bottom: -300px;
           visibility: hidden;
           background-color: #fff;
           width: 100%;

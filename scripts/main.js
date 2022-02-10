@@ -13,7 +13,6 @@ async function addContact(event, inputId) {
 function closeOpenPopUp() {
   console.log(document.getElementById("wrapper").clicked !== true);
   if (document.getElementById("wrapper").clicked !== true) {
-    console.log("DA");
     document
       .getElementById("popup")
       .classList.toggle("pop-up-container-closed");

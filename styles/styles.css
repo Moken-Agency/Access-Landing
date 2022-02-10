@@ -199,13 +199,17 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   width: 80%;
+}
+
+.nav-container .nav-wrapper .accessLogo {
+  margin-right: auto;
 }
 
 .nav-container .nav-wrapper .nav-btns {
@@ -232,6 +236,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-right: auto;
   gap: 30px;
 }
 
@@ -266,7 +271,7 @@
   transition: all 0.4s ease-in-out;
   position: absolute;
   left: 0;
-  bottom: -290px;
+  bottom: -300px;
   visibility: hidden;
   background-color: #fff;
   width: 100%;
@@ -3409,6 +3414,7 @@
 
 html {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
